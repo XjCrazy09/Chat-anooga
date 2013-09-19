@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chat Client</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<script type="text/javascript" src="socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="js/client.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<div id="container">
+
+		<div id="username">
+			<form>
+			Chat Name: <input type="text" name="username"><br>
+			<input type="submit" onclick="checkUser();" value="Join">
+			</form>
+		</div>
+
+		<div id="chatbox">
+			Append text from server to here
+		</div>
+
+		<div id="currentUsers">
+			write current users here. 
+		</div>
+
+		<div id="inputBox">
+			<input type="text" name="textBox" value="Type here...">
+			<input type="submit" onclick="sendMessage();" value="Send">
+		</div>
+	</div>
+
+</body>
+</html>

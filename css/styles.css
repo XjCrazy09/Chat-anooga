@@ -1,0 +1,51 @@
+body{
+
+}
+
+/* for 700px or more */
+@media screen and (min-width: 700px){
+
+
+
+}
+
+#container{
+	position: absolute;
+	width: 98%; 
+	height: 98%;
+}
+
+#username{
+	position: absolute;
+	padding: 1% 1%;
+	top: 54%;
+	width: 13%;
+	height: 12%;  
+	border: solid black;
+}
+
+#chatbox{
+	position: absolute;
+	top: 5px;
+	left: 16%;
+	width: 50%;
+	height: 50%; 
+	border: solid black; 
+}
+
+#currentUsers{
+	position: absolute;
+	top: 5px;
+	width: 15%; 
+	height: 50%; 
+	border: solid black;
+}
+
+#inputBox{
+	position: absolute;
+	top: 54%;
+	left: 16%;
+	width: 50%;
+	height: 16%;
+	border: solid black;
+}
