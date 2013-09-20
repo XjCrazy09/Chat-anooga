@@ -4,6 +4,10 @@
 
 
         handling HTTP requests from clients - https://gist.github.com/rpflorence/701407
+	forever running - https://github.com/nodejitsu/forever
+	emoticons - https://npmjs.org/package/emoticons
+	piping files - https://npmjs.org/package/pipe
+
 */
 
 
