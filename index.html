@@ -3,35 +3,34 @@
 <head>
 	<title>Chat Client</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/styles.css">
-	<script type="text/javascript" src="socket.io/socket.io.js"></script>
-	<script type="text/javascript" src="js/client.js"></script>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="/css/styles.css">
+	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="/js/jquery-1.8.1.min.js"></script>
+	<script type="text/javascript" src="/js/client.js"></script>
 
 </head>
 <body>
 	<div id="container">
 
 		<div id="username">
-			<form>
-			Chat Name: <input type="text" name="username"><br>
-			<input type="submit" onclick="checkUser();" value="Join">
-			</form>
+				<input id = "user_name" input type="text" name="username" value ="Screenname">
+				<input id = "password" input type="password" name "password" value="Password">
+				<input id = "sign_up_button" input type="submit" onclick="signup();" value="Join">
+				<input id = "login_button" input type ="submit" onclick="login();" value="Login">	
 		</div>
 
 		<div id="chatbox">
-			Append text from server to here
 		</div>
 
 		<div id="currentUsers">
-			write current users here. 
 		</div>
 
-		<div id="inputBox">
-			<input type="text" name="textBox" value="Type here...">
-			<input type="submit" onclick="sendMessage();" value="Send">
+		<div id="inputBox">	
+			<input id="input_message" type="text" value="Type here...">
+			<input id="submit_button" type="submit" onclick="sendMessage();" value="Send">
 		</div>
 	</div>
 
 </body>
 </html>
+
